@@ -9,7 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    # Safely assign write permissions specifically to this job
     permissions:
       contents: write
       
@@ -23,6 +22,10 @@ jobs:
           python-version: '3.x'
 
       - name: Generate Mario SVG
+        # We pass the token and your username to the Python script here
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
         run: python generate_mario.py
 
       - name: Commit and Push SVG
@@ -30,5 +33,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add mario_contribution.svg
-          git commit -m "Update Mario contribution graph" || echo "No changes to commit"
+          git commit -m "Update Mario contribution graph with real data" || echo "No changes to commit"
           git push
