@@ -12,7 +12,7 @@ It uses a Python script to generate the animated SVG and GitHub Actions to autom
 
 ## 🚀 See it in Action
 
-Once the GitHub Action runs successfully, your animated graph will appear right here:
+Once the GitHub Action runs successfully, your animated graph will appear right here: 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="mario_contribution.svg">
