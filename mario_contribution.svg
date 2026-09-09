@@ -618,7 +618,8 @@
   <rect x="754" y="124" width="10" height="10" class="empty" />
   <rect x="768" y="40" width="10" height="10" class="empty" />
   <rect x="768" y="54" width="10" height="10" class="empty" />
-  <rect x="768" y="68" width="10" height="10" class="empty" />
+  <rect x="768" y="68" width="10" height="10" class="lvl1" />
+  <rect x="768" y="82" width="10" height="10" class="empty" />
   <g transform="translate(236, 95)">
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.267;0.297;1" dur="20s" repeatCount="indefinite" />
@@ -654,20 +655,13 @@
       <use href="#coin" x="0" y="0" />
     </g>
   </g>
-  <g transform="translate(768, 95)">
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.895;0.925;1" dur="20s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.895;0.925;1" dur="20s" repeatCount="indefinite" />
-      <use href="#coin" x="0" y="0" />
-    </g>
-  </g>
   <rect x="797" y="30" width="3" height="108" fill="#FFF" stroke="#000" stroke-width="0.5"/>
   <circle cx="798.5" cy="30" r="4" fill="#f8d820" stroke="#000"/>
   <g>
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,93; 0,93" keyTimes="0;0.929;0.979;1" dur="20s" repeatCount="indefinite" />
     <polygon points="782,35 797,35 797,45" fill="#00A800" stroke="#000"/>
   </g>
-  <path id="parkour-path" d="M 14 138 L 14 94  Q 27.0 57 40 82 Q 47.0 15 54 40 L 68 40 Q 75.0 15 82 82 Q 89.0 15 96 40 Q 103.0 15 110 54 Q 117.0 29 124 124 Q 131.0 43 138 68 Q 145.0 43 152 124 L 166 124 Q 173.0 43 180 68 Q 187.0 43 194 124 L 208 124 L 222 124 Q 229.0 74 236 99 Q 243.0 74 250 124 L 264 124 L 278 124 Q 285.0 74 292 99 Q 299.0 74 306 124 L 320 124 Q 327.0 15 334 40 Q 341.0 15 348 124 L 362 124 Q 369.0 57 376 82 Q 383.0 15 390 40 Q 397.0 15 404 124 L 418 124 L 432 124 Q 439.0 29 446 54 Q 453.0 1 460 26 L 474 26 L 488 26 Q 495.0 1 502 40 Q 509.0 15 516 124 L 530 124 L 544 124 Q 551.0 74 558 99 Q 565.0 74 572 124 L 586 124 Q 593.0 15 600 40 Q 607.0 15 614 82 Q 621.0 57 628 124 L 642 124 Q 649.0 15 656 40 Q 663.0 15 670 124 L 684 124 L 698 124 Q 705.0 74 712 99 Q 719.0 74 726 124 L 740 124 L 754 124 Q 761.0 74 768 99 Q 778 79 793 40  L 793 124  L 847 124 " fill="none" stroke="none" />
+  <path id="parkour-path" d="M 14 138 L 14 94  Q 27.0 57 40 82 Q 47.0 15 54 40 L 68 40 Q 75.0 15 82 82 Q 89.0 15 96 40 Q 103.0 15 110 54 Q 117.0 29 124 124 Q 131.0 43 138 68 Q 145.0 43 152 124 L 166 124 Q 173.0 43 180 68 Q 187.0 43 194 124 L 208 124 L 222 124 Q 229.0 74 236 99 Q 243.0 74 250 124 L 264 124 L 278 124 Q 285.0 74 292 99 Q 299.0 74 306 124 L 320 124 Q 327.0 15 334 40 Q 341.0 15 348 124 L 362 124 Q 369.0 57 376 82 Q 383.0 15 390 40 Q 397.0 15 404 124 L 418 124 L 432 124 Q 439.0 29 446 54 Q 453.0 1 460 26 L 474 26 L 488 26 Q 495.0 1 502 40 Q 509.0 15 516 124 L 530 124 L 544 124 Q 551.0 74 558 99 Q 565.0 74 572 124 L 586 124 Q 593.0 15 600 40 Q 607.0 15 614 82 Q 621.0 57 628 124 L 642 124 Q 649.0 15 656 40 Q 663.0 15 670 124 L 684 124 L 698 124 Q 705.0 74 712 99 Q 719.0 74 726 124 L 740 124 L 754 124 Q 761.0 29 768 54 Q 778 34 793 40  L 793 124  L 847 124 " fill="none" stroke="none" />
   <use href="#mario">
     <animateMotion dur="20s" repeatCount="indefinite"><mpath href="#parkour-path"/></animateMotion>
   </use>
