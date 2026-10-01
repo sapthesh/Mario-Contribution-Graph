@@ -619,7 +619,8 @@
   <rect x="768" y="40" width="10" height="10" class="empty" />
   <rect x="768" y="54" width="10" height="10" class="empty" />
   <rect x="768" y="68" width="10" height="10" class="empty" />
-  <rect x="768" y="82" width="10" height="10" class="empty" />
+  <rect x="768" y="82" width="10" height="10" class="lvl2" />
+  <rect x="768" y="96" width="10" height="10" class="empty" />
   <g transform="translate(194, 95)">
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.217;0.247;1" dur="20s" repeatCount="indefinite" />
@@ -661,7 +662,7 @@
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,93; 0,93" keyTimes="0;0.929;0.979;1" dur="20s" repeatCount="indefinite" />
     <polygon points="782,35 797,35 797,45" fill="#00A800" stroke="#000"/>
   </g>
-  <path id="parkour-path" d="M 14 138 L 14 94  Q 27.0 57 40 82 Q 47.0 15 54 40 Q 61.0 15 68 54 Q 75.0 29 82 124 Q 89.0 43 96 68 Q 103.0 43 110 124 L 124 124 Q 131.0 43 138 68 Q 145.0 43 152 124 L 166 124 L 180 124 Q 187.0 74 194 99 Q 201.0 74 208 124 L 222 124 L 236 124 Q 243.0 74 250 99 Q 257.0 74 264 124 L 278 124 Q 285.0 15 292 40 Q 299.0 15 306 124 L 320 124 Q 327.0 57 334 82 Q 341.0 15 348 40 Q 355.0 15 362 124 L 376 124 L 390 124 Q 397.0 29 404 54 Q 411.0 1 418 26 L 432 26 L 446 26 Q 453.0 1 460 40 Q 467.0 15 474 124 L 488 124 L 502 124 Q 509.0 74 516 99 Q 523.0 74 530 124 L 544 124 Q 551.0 15 558 40 Q 565.0 15 572 82 Q 579.0 57 586 124 L 600 124 Q 607.0 15 614 40 Q 621.0 15 628 124 L 642 124 L 656 124 Q 663.0 74 670 99 Q 677.0 74 684 124 L 698 124 L 712 124 Q 719.0 29 726 54 Q 733.0 29 740 124 L 754 124 L 768 124 Q 778 104 793 40  L 793 124  L 847 124 " fill="none" stroke="none" />
+  <path id="parkour-path" d="M 14 138 L 14 94  Q 27.0 57 40 82 Q 47.0 15 54 40 Q 61.0 15 68 54 Q 75.0 29 82 124 Q 89.0 43 96 68 Q 103.0 43 110 124 L 124 124 Q 131.0 43 138 68 Q 145.0 43 152 124 L 166 124 L 180 124 Q 187.0 74 194 99 Q 201.0 74 208 124 L 222 124 L 236 124 Q 243.0 74 250 99 Q 257.0 74 264 124 L 278 124 Q 285.0 15 292 40 Q 299.0 15 306 124 L 320 124 Q 327.0 57 334 82 Q 341.0 15 348 40 Q 355.0 15 362 124 L 376 124 L 390 124 Q 397.0 29 404 54 Q 411.0 1 418 26 L 432 26 L 446 26 Q 453.0 1 460 40 Q 467.0 15 474 124 L 488 124 L 502 124 Q 509.0 74 516 99 Q 523.0 74 530 124 L 544 124 Q 551.0 15 558 40 Q 565.0 15 572 82 Q 579.0 57 586 124 L 600 124 Q 607.0 15 614 40 Q 621.0 15 628 124 L 642 124 L 656 124 Q 663.0 74 670 99 Q 677.0 74 684 124 L 698 124 L 712 124 Q 719.0 29 726 54 Q 733.0 29 740 124 L 754 124 Q 761.0 43 768 68 Q 778 48 793 40  L 793 124  L 847 124 " fill="none" stroke="none" />
   <use href="#mario">
     <animateMotion dur="20s" repeatCount="indefinite"><mpath href="#parkour-path"/></animateMotion>
   </use>
