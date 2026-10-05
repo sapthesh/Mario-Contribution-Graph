@@ -253,7 +253,7 @@
   <rect x="10" y="108" width="24" height="30" fill="#00A800" stroke="#000"/>
   <rect x="8" y="108" width="28" height="10" fill="#00A800" stroke="#000"/>
   <rect x="40" y="40" width="10" height="10" class="empty" />
-  <rect x="40" y="54" width="10" height="10" class="lvl2" />
+  <rect x="40" y="54" width="10" height="10" class="lvl3" />
   <rect x="40" y="68" width="10" height="10" class="lvl1" />
   <rect x="40" y="82" width="10" height="10" class="empty" />
   <rect x="40" y="96" width="10" height="10" class="lvl1" />
@@ -278,7 +278,7 @@
   <rect x="82" y="68" width="10" height="10" class="empty" />
   <rect x="82" y="82" width="10" height="10" class="lvl1" />
   <rect x="82" y="96" width="10" height="10" class="lvl2" />
-  <rect x="82" y="110" width="10" height="10" class="lvl3" />
+  <rect x="82" y="110" width="10" height="10" class="lvl4" />
   <rect x="82" y="124" width="10" height="10" class="empty" />
   <rect x="96" y="40" width="10" height="10" class="empty" />
   <rect x="96" y="54" width="10" height="10" class="empty" />
@@ -507,7 +507,7 @@
   <rect x="544" y="40" width="10" height="10" class="empty" />
   <rect x="544" y="54" width="10" height="10" class="lvl1" />
   <rect x="544" y="68" width="10" height="10" class="lvl1" />
-  <rect x="544" y="82" width="10" height="10" class="lvl1" />
+  <rect x="544" y="82" width="10" height="10" class="lvl2" />
   <rect x="544" y="96" width="10" height="10" class="empty" />
   <rect x="544" y="110" width="10" height="10" class="empty" />
   <rect x="544" y="124" width="10" height="10" class="empty" />
@@ -617,6 +617,14 @@
   <rect x="754" y="110" width="10" height="10" class="lvl2" />
   <rect x="754" y="124" width="10" height="10" class="lvl4" />
   <rect x="768" y="40" width="10" height="10" class="empty" />
+  <rect x="768" y="54" width="10" height="10" class="empty" />
+  <g transform="translate(82, 98)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.085;0.115;1" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.085;0.115;1" dur="20s" repeatCount="indefinite" />
+      <use href="#coin" x="0" y="0" />
+    </g>
+  </g>
   <g transform="translate(180, 95)">
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 0,-20; 0,-20" keyTimes="0;0.201;0.231;1" dur="20s" repeatCount="indefinite" />
